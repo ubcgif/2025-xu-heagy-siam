@@ -1,21 +1,21 @@
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-CONFERENCE
-  # title: TITLE
-  # description: DESCRIPTION
+  id: ubcgif-2025-xu-heagy-siam
+  title: Leveraging Neural Fields for Geophysical Inverse Problems.
+  description: Talk presented at Society for Industrial and Applied Mathematics (SIAM) Conference on Mathematics of Data Science (MDS24)
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
+    - name: Anran Xu
+      email: anranxu@student.ubc.ca
+      corresponding: true
+      orcid: 0009-0001-9731-377X
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      # corresponding: true
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
     # - name: Douglas W. Oldenburg
     #   affiliation: ubc
     #   email: doug@eos.ubc.ca
@@ -24,12 +24,12 @@ project:
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
+    title: MDS24
+    url: https://www.siam.org/conferences-events/past-event-archive/mds24/
   # license: CC-BY-4.0
   # open_access: true
   # doi: DOI
-  # date: YYYY-MM-DD
+  date: 2024-10-25
   abbreviations:
     # DC: direct current
     # EM: electromagnetics
@@ -44,10 +44,10 @@ project:
 site:
   template: article-theme
   actions:
-    # - title: pdf
-    #   url: ARTICLE-NAME.pdf
-    #   static: true
-    # - title: slides
-    #   url: presentation/SLIDES-NAME.pdf
-    #   static: true
+    - title: pdf
+      url: MDS24.pdf
+      static: true
+  #   - title: slides
+  #     url: KEGS_2025_Presentation_Xu_Heagy.pdf
+  #     static: true
   # domains: []
