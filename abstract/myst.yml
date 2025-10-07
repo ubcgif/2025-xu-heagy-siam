@@ -1,7 +1,7 @@
 version: 1
 project:
   id: ubcgif-2025-xu-heagy-siam
-  title: Leveraging Neural Fields for Geophysical Inverse Problems.
+  title: Leveraging Neural Fields for Geophysical Inverse Problems
   description: Talk presented at Society for Industrial and Applied Mathematics (SIAM) Conference on Mathematics of Data Science (MDS24)
   authors:
     - name: Anran Xu
@@ -20,7 +20,7 @@ project:
     #   affiliation: ubc
     #   email: doug@eos.ubc.ca
     #   orcid: 0000-0002-4327-2124
-  # banner: banner.png
+  banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
@@ -31,8 +31,9 @@ project:
   # doi: DOI
   date: 2024-10-25
   abbreviations:
-    # DC: direct current
-    # EM: electromagnetics
+    TTL: Test time learning
+    DIP: Deep Image Prior
+    NN: Neural Network
   # github:
   # bibliography: []
   # keywords:
